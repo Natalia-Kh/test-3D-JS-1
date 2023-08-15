@@ -1,5 +1,6 @@
 import * as THREE from "three";
-import * as THREEx from "@ar-js-org/ar.js/three.js/build/ar-threex-location-only.js";
+import * as THREE from "three";
+import * as THREEx from "./node_modules/@ar-js-org/ar.js/three.js/build/ar-threex-location-only.js";
 
 function main() {
   const canvas = document.getElementById("canvas1");
@@ -14,9 +15,12 @@ function main() {
   const geom = new THREE.BoxGeometry(20, 20, 20);
   const mtl = new THREE.MeshBasicMaterial({ color: 0xff0000 });
   const box = new THREE.Mesh(geom, mtl);
-  arjs.add(box, -0.72, 51.051, 0);
 
-  arjs.fakeGps(-0.72, 51.05);
+  // Change this to a location 0.001 degrees of latitude north of you, so that you will face it
+  arjs.add(box, -0.72, 51.051);
+
+  // Start the GPS
+  arjs.startGps();
 
   requestAnimationFrame(render);
 
