@@ -1,5 +1,4 @@
 import * as THREE from "three";
-import * as THREE from "three";
 import * as THREEx from "./node_modules/@ar-js-org/ar.js/three.js/build/ar-threex-location-only.js";
 
 function main() {
