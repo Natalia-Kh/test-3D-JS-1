@@ -1,0 +1,29 @@
+{
+  "hash": "9fb993cb",
+  "browserHash": "63572824",
+  "optimized": {
+    "three": {
+      "src": "../../node_modules/three/build/three.module.js",
+      "file": "three.js",
+      "fileHash": "d7a6cc6e",
+      "needsInterop": false
+    },
+    "three/addons/postprocessing/EffectComposer.js": {
+      "src": "../../node_modules/three/examples/jsm/postprocessing/EffectComposer.js",
+      "file": "three_addons_postprocessing_EffectComposer__js.js",
+      "fileHash": "f239b468",
+      "needsInterop": false
+    },
+    "three/addons/controls/OrbitControls.js": {
+      "src": "../../node_modules/three/examples/jsm/controls/OrbitControls.js",
+      "file": "three_addons_controls_OrbitControls__js.js",
+      "fileHash": "0d9da3f9",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-BIZFXJEK": {
+      "file": "chunk-BIZFXJEK.js"
+    }
+  }
+}
